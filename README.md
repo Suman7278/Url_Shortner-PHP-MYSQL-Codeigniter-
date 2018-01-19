@@ -1,9 +1,13 @@
-# CodeIgniter 2
-Open Source PHP Framework (originally from EllisLab)
+Installation:
+Install Xampp server with a port.
+configure the base_url with the same port in config/config.php 
+For eg:"$config['base_url'] = 'http://localhost:9999/Suman'"
+Create a database in MySql named 'urls'.
+Create a table with script written in the script file.
 
-For more info, please refer to the user-guide at http://www.codeigniter.com/userguide2/  
-(also available within the download package for offline use)
-
-**WARNING:** *CodeIgniter 2.x is no longer under development and only receives security patches until October 31st, 2015.
-Please update your installation to the latest CodeIgniter 3.x version available
-(upgrade instructions [here](http://www.codeigniter.com/userguide3/installation/upgrade_300.html)).*
+Start the Application:-
+start The xampp server an run the application in local server.
+For eg: 'http://localhost:9999/Suman'.
+Give the Url in the textbox and click on shorten button to get the short link.
+On clicking the short link the url will get open in a new tab.
+If you give the same url more than once a new short link will be created every time.
